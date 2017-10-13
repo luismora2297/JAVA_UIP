@@ -12,7 +12,8 @@ Este repositorio ha sido elaborado por:
 
 ## Documentación :octocat: :godmode:
 
-- [ ] 22 de Septiembre de 2017
+- [x] 22 de Septiembre de 2017
+- [ ] 13 de Octubre de 2017
 
 ## Licencia (Ingles) :skull: :goberserk:
 
