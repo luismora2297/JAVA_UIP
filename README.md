@@ -13,9 +13,9 @@ Este repositorio ha sido elaborado por:
 # Documentación :octocat: :godmode:
 
 - [x] 22 de Septiembre de 2017
-- [ ] 13 de Octubre de 2017
-* Temas a dar son: Tipos de datos, salida de datos, ciclos, etc.
-## ¿Como se estructura un programa en JAVA?
+- [x] 13 de Octubre de 2017
+* Temas en esta fecha son: __Tipos de datos, salida de datos, ciclos, etc.__
+### ¿Como se estructura un programa en JAVA? :goberserk:
 
 La primera clase Main es el nombre que debe tener el archivo, es decir, si se cambia el nombre Main, el archivo debe tener el cambio de nombre.
 
@@ -94,6 +94,32 @@ boolean i = true;
 i = false;
 ```
 
+**Buffered Reader**
+
+Este sirve para leer todas las clases de datos, pero entran en cadena, luego en el codigo se deben transformar a el tipo de dato que se desea. Cuando una variable se declara con BufferedReader, se debe establecer con **new** que por obligación es un BufferedReader
+
+Un **constructor** se encarga de inicializar los objetos de una clase.
+
+Ejemplo de todo esto:
+
+```
+BufferedReader yu = new BufferedReader(new InputStreamReader(System.in));
+```
+Con .readLine() se lee lo que entra en el programa.
+
+_Nota: En JAVA, print() y println() tienen una diferencia, println() hace un salto de línea mientras print() no lo hace._
+
+Cada tipo de dato, tiene su forma de transformarse con parse, para BufferedReader, es obligatorio debido a que solo los trae como cadenas.
+
+* INT Integer.parseInt();
+* DOUBLE Double.parseDouble();
+* FLOAT Float.parseFloat();
+
+El IOException ayuda a que el programa no recoja basura y lance un error de entrada y salida.
+
+La Exception lanza error de Excepcion al momento que recibe una clase de datos que no es.
+
+- [ ] 20 de Octubre de 2017
 # Licencia (Ingles) :skull: :goberserk:
 
 MIT License
