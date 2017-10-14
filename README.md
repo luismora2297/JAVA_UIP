@@ -111,13 +111,58 @@ _Nota: En JAVA, print() y println() tienen una diferencia, println() hace un sal
 
 Cada tipo de dato, tiene su forma de transformarse con parse, para BufferedReader, es obligatorio debido a que solo los trae como cadenas.
 
-* INT Integer.parseInt();
-* DOUBLE Double.parseDouble();
-* FLOAT Float.parseFloat();
+* **INT** Integer.parseInt();
+* **DOUBLE** Double.parseDouble();
+* **FLOAT** Float.parseFloat();
 
 El IOException ayuda a que el programa no recoja basura y lance un error de entrada y salida.
 
 La Exception lanza error de Excepcion al momento que recibe una clase de datos que no es.
+
+En el caso de BufferedReader, se necesita InputStreamReader para que funcione como lectura referente al teclado.
+
+El método equals() funciona es para cadenas. El método .toUpperCase() transforma la letra o cadena a mayuscula y .toLowerCase() es para transformar la letra o cadena a minisculas.
+
+También existe en JAVA printf(), aquí se declara como System.out.printr("Mensaje 1 %s y cantidad $%.2f", variablestring, variablefloat). El método .printf() es imprimir con formato.
+
+* %s indica string
+* %i indica imprimir integer
+* $%.2f indica imprimir float
+
+_¡Es igual que en C y C++!_.
+
+Para truncar un float se debe utilizar la libreria Math de JAVA.
+
+Los ciclos de repeticion son for, while y do while.
+
+**FOR**
+```
+for(int i; i<0;i++)
+{
+	//Codigo
+}
+```
+
+**WHILE**
+```
+while(true) //u otra condición
+{
+	//Codigo
+}
+```
+
+**DO WHILE**
+```
+do
+{
+	//Codigo
+}while(true) //u otra condición
+
+```
+
+For recientemente a tenido varias variantes
+
+
 
 - [ ] 20 de Octubre de 2017
 # Licencia (Ingles) :skull: :goberserk:
