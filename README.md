@@ -27,14 +27,16 @@ La primera clase Main es el nombre que debe tener el archivo, es decir, si se ca
 
 Las llaves igual que en C, deben cerrarse correctamente donde abren, sino lanza algun error.
 
-``` public class Main 
+``` 
+public class Main 
 {
 	public static void main(String[] args)
 	{
 		//Codigo aquí
 	}
 
-}```
+}
+```
 
 ¿Como darse cuenta que algo es una clase? Simplemente cuando la palabra o el nombre se escribe en Mayuscula.
 
