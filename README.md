@@ -137,7 +137,7 @@ Los ciclos de repeticion son for, while y do while.
 
 **FOR**
 ```
-for(int i; i<0;i++)
+for(int i; i<'0';i++)
 {
 	//Codigo
 }
@@ -164,7 +164,38 @@ For recientemente a tenido varias variantes recientemente en JAVA y otros lengua
 
 
 
-- [ ] 20 de Octubre de 2017
+- [x] 20 de Octubre de 2017 :goberserk:
+Vamos a ver las clases, para realizar un programa en especifico.
+
+El programa que realizaremos es un punto de pago.
+
+
+- Pago Servicios
+	1. Luz
+	2. Agua
+	3. Internet
+	4. Telefonía
+	5. Televisión
+	6. Salir
+- (Mensaje) ¿Que servicio desea pagar? ____
+- Seleccione su compañia
+	1. ENSA
+	2. FENOSA
+- (Mensaje) ¿Que compañia?___
+- Numero del Cliente ___
+- Precio de la factura ___
+- Monto a pagar ___
+- Forma de Pago
+	1. Efectivo
+	2. Otro
+- Opcion
+- (Mensaje) ¿Desea realizar otro pago?
+
+Las clases serian las declaraciones que contienen varios objetos. Es decir, ayuda a generar los objetos mediante funciones/métodos. (?)
+Los atributos son las caracteristicas que estan en la clase.
+
+
+- [ ] 27 de Octubre de 2017
 # Licencia (Ingles) :skull: :goberserk:
 
 MIT License
