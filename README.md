@@ -212,7 +212,10 @@ Si se selecciona 1
 	Criticidad: (Baja, media, alta)
 **¡Interfaz de Usuario!**	
 
-Tarea es nuestra clase
+Tarea es nuestra clase.
+
+Deben manejarse las Excepciones, por medio de IOException, aunque podremos validarla para que el programa no tenga problemas o errores.
+Por medio de surround with try catch, realizaremos las excepciones de entrada. IOException es un error de entrada salida, NumberException, NullPointerException son otros tipos de excepciones, pero si colocamos solamente Exception en la línea de excepcion, entonces captura todas las excepciones que puede realizar el programa.
 
 
 
