@@ -3,12 +3,14 @@ import java.io.BufferedReader;
 //Añado IOException para evitar un try catch cada vez que realizo la entrada de un string
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 public class Main
 {
     public static void main(String[] args) throws IOException {
         //Inicializando las variables
         int opcion = 0;
+        ArrayList<Tarea> lista_tareas= new ArrayList<>();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         //New nos puede indicar la creación de un nuevo objeto dentro de otro
         do
@@ -56,6 +58,8 @@ public class Main
 
                         //New servira para crear el nuevo objeto
                         Tarea t1 = new Tarea(n,ft,c);
+                        lista_tareas.add(t1);
+                        System.out.println("La lista tiene"+ lista_tareas.size());
                     break;
                 case 2:
                     break;
