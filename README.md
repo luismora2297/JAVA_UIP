@@ -194,6 +194,27 @@ El programa que realizaremos es un punto de pago.
 Las clases serian las declaraciones que contienen varios objetos. Es decir, ayuda a generar los objetos mediante funciones/métodos. (?)
 Los atributos son las caracteristicas que estan en la clase.
 
+**Cambio**
+
+El nuevo programa será
+
+- Lista de Quehaceres
+	1. Agregar Tarea
+	2. Ver Tareas
+	3. Completar Tarea
+	4. Salir
+	
+Si se selecciona 1
+
+	Nombre:
+	Fecha Tarea:
+	Estado:
+	Criticidad: (Baja, media, alta)
+**¡Interfaz de Usuario!**	
+
+Tarea es nuestra clase
+
+
 
 - [ ] 27 de Octubre de 2017
 # Licencia (Ingles) :skull: :goberserk:
