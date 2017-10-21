@@ -11,8 +11,23 @@ public class Tarea
 
     //Métodos, son públicos, deben retornar un valor, si un método no retorna nada, debe definirse como VOID, que seria el modificador, en este caso no queremos que se retorne nada
     //Dentro de () iran los argumentos que se utilizarán en el método, como no devuelve nada, entonces puede dejarse vacio
+
+    //Constructor, es un metodo que tendra el mismo nombre de la clase, con esto se inicializa los valores que tienen los atributos, siempre es público, no lleva void,int,etc porque es un constructor
+    public Tarea(String nombre, String fecha_tope, String criticidad)
+    {
+        this.nombre = nombre;
+        this.fecha_tope = fecha_tope;
+        this.estado = "EnProgreso";
+        this.criticidad = criticidad;
+    }
+
     public void completar()
     {
+        this.estado = "Completado";
+    }
 
+    public String getnombre()
+    {
+        return this.nombre;
     }
 }

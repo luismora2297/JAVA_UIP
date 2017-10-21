@@ -1,10 +1,12 @@
 package io.beta.gamma;
 import java.io.BufferedReader;
+//Añado IOException para evitar un try catch cada vez que realizo la entrada de un string
+import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Main
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         //Inicializando las variables
         int opcion = 0;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -32,14 +34,37 @@ public class Main
             switch (opcion)
             {
                 case 1:
+                        String n, ft, c;
+                        System.out.print("Nombre: ");
+                        n = br.readLine();
+                        System.out.print("Fecha Tope: ");
+                        ft = br.readLine();
+                        do
+                        {
+                            System.out.print("Criticidad (Alta/Baja/Media): ");
+                            c = br.readLine();
+                            if(c.toLowerCase().equals("alta") || c.toLowerCase().equals("media") || c.toLowerCase().equals("baja"))
+                            {
+                                break;
+                            }
+                            else
+                            {
+                                System.out.println("¡Criticidad Inválida!");
+                            }
+                        }while(true);
+                        //Valido las entradas si no son iguales para que salga del ciclo de repetición.
+
+                        //New servira para crear el nuevo objeto
+                        Tarea t1 = new Tarea(n,ft,c);
                     break;
                 case 2:
                     break;
                 case 3:
                     break;
                 case 4:
+                    System.out.println("Hasta el proximo viernes VIKERNES!");
                     break;
-                //Esta opcion, ocurre por predefinición, es decir, que si no cumple ninguno de los casos, lanza un error o realiza una acción.
+                //Esta opcion, ocurre por defecto, es decir, que si no cumple ninguno de los casos, lanza un error o realiza una acción.
                 default:
                     System.out.println("Opcion fuera de rango");
                     break;

@@ -217,7 +217,11 @@ Tarea es nuestra clase.
 Deben manejarse las Excepciones, por medio de IOException, aunque podremos validarla para que el programa no tenga problemas o errores.
 Por medio de surround with try catch, realizaremos las excepciones de entrada. IOException es un error de entrada salida, NumberException, NullPointerException son otros tipos de excepciones, pero si colocamos solamente Exception en la línea de excepcion, entonces captura todas las excepciones que puede realizar el programa.
 
+Si en BufferedReader se pasara una cadena, no se necesita realizar ningun parse debido a que la cadena ya esta en el tipo de dato **._.** :goberserk:
 
+Usar **throws IOException** debemos estar seguros de que las líneas que se validan por entrada y salida, no vayan a hacer que el programa "reviente" :boom: o se cierre por un error :rage3:, por ende, entonces, es recomendable el try/catch, para asi evitar que se cierre el programa y lanzar un mensaje de validación. :smiley:
+
+.equals()  se usa en objetos, y clases. Tener cuidado al usar este metodo con los que no son objetos.
 
 - [ ] 27 de Octubre de 2017
 # Licencia (Ingles) :skull: :goberserk:
