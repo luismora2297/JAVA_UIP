@@ -223,7 +223,38 @@ Usar **throws IOException** debemos estar seguros de que las líneas que se vali
 
 .equals()  se usa en objetos, y clases. Tener cuidado al usar este metodo con los que no son objetos.
 
-- [ ] 27 de Octubre de 2017
+- [x] 27 de Octubre de 2017
+
+Vamos a aprender **Hash Map**. :goberserk:
+
+Es una relación que tiene una llave en un arreglo, dos elementos, uno precede a otro como una llave que contiene un valor, en otros lenguajes, el Hash Map se conoce como diccionario (como en Python).
+
+K:V
+Llave : Auto
+Abuela : Mamá
+Real : 10
+
+etc.
+
+El recorrido de un arreglo se hara distinto a un ciclo de repetición.
+
+Por medio del hash map **for (Tarea a : lista_tareas)** lo puedo realizar sin tener que recorrer con un contador.
+
+Dos son los métodos para obtener los valores privados de una clase que pone sus atributos como valores.
+
+- Setter: Con esto lo obtengo y lo cambio.
+- Getter: con este, obtengo solamente el dado.
+
+Estos generan dos funciones, una que puede llamarse como getAtributo, que solo da un return al atributo, o setAtributo, que es un void por que no da return de nada, pero realiza una acción de guardar.
+
+super(); es un metodo que llama al objeto padre.
+
+###Traer un programa hecho en JAVA a gusto propio :rage2:
+
+Este programa es libre, pero puede ser la base del proyecto.
+
+
+- [ ] 3 de Noviembre de 2017
 # Licencia (Ingles) :skull: :goberserk:
 
 MIT License

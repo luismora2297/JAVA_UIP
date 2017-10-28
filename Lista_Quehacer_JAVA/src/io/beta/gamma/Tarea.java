@@ -13,6 +13,14 @@ public class Tarea
     //Dentro de () iran los argumentos que se utilizarán en el método, como no devuelve nada, entonces puede dejarse vacio
 
     //Constructor, es un metodo que tendra el mismo nombre de la clase, con esto se inicializa los valores que tienen los atributos, siempre es público, no lleva void,int,etc porque es un constructor
+    /*
+    * Para usar con Setters
+    * public Tarea ()
+    * {
+    *   super();
+    * }
+    * */
+
     public Tarea(String nombre, String fecha_tope, String criticidad)
     {
         this.nombre = nombre;
@@ -26,8 +34,51 @@ public class Tarea
         this.estado = "Completado";
     }
 
-    public String getnombre()
+    //Getter de Nombre
+    public String getNombre()
     {
-        return this.nombre;
+        return nombre;
+    }
+
+    //Setter de Nombre
+    public void setNombre(String nombre)
+    {
+        this.nombre = nombre;
+    }
+
+    //Getter de Fecha Tope
+    public String getFecha_tope()
+    {
+        return fecha_tope;
+    }
+
+    //Setter de Fecha Tope
+    public void setFecha_tope(String fecha_tope)
+    {
+        this.fecha_tope = fecha_tope;
+    }
+
+    //Getter de Criticidad
+    public String getCriticidad()
+    {
+        return criticidad;
+    }
+
+    //Setter de Criticidad
+    public void setCriticidad(String criticidad)
+    {
+        this.criticidad = criticidad;
+    }
+
+    //Getter de Estado
+    public String getEstado()
+    {
+        return estado;
+    }
+
+    //Setter de Estado
+    public void setEstado(String estado)
+    {
+        this.estado = estado;
     }
 }
