@@ -249,12 +249,38 @@ Estos generan dos funciones, una que puede llamarse como getAtributo, que solo d
 
 super(); es un metodo que llama al objeto padre.
 
-###Traer un programa hecho en JAVA a gusto propio :rage2:
+### Traer un programa hecho en JAVA a gusto propio :rage2:
 
 Este programa es libre, pero puede ser la base del proyecto.
 
 
-- [ ] 3 de Noviembre de 2017
+- [x] 3 de Noviembre de 2017 :goberserk:
+
+No se vieron clases por dos semanas, sin embargo, el profesor dicto clases para herencia y entre otras cosas.
+
+- [x] 16 - 17 de Noviembre de 2017
+
+Como el dia 17 de Noviembre no iré a clases, entonces me he colado en la clase del día anterior.
+
+Entraremos a JAVAFX, será para hacer una aplicación de escritorio (laptop/desktop).
+
+|       Proyecto Final :neckbeard:       |
+|----------------------------------------|
+| 1. VENTA DE COMPUTADORAS YOITEK        |
+| 2. DICCIONARIO ENCICLOPEDICO ENKHARTA  |
+| 3. CODIZADOR DE MANTENIMIENTO HIUNDAI  |
+| 4. RESERVA DE HOSTAL PLAYA LA ANCHA    |
+| Evaluación                             |
+| Código (3 preguntas)           40% (1) |
+| Repositorio                    30% (2) |
+| Demo                           30% (3) |
+| Máximo 6 personas                      |
+
+
+
+- [] 24 de Noviembre de 2017 :goberserk:
+
+
 # Licencia (Ingles) :skull: :goberserk:
 
 MIT License
