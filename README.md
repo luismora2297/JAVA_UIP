@@ -276,7 +276,13 @@ Entraremos a JAVAFX, será para hacer una aplicación de escritorio (laptop/desk
 | Demo                           30% (3) |
 | Máximo 6 personas                      |
 
+Vamosa usar SceneBuilder para hacer una interfaz gráfica, por debajo el escribe con XML, que debo investigar profundamente. FXML es la versión modificada del mismo, SceneBuilder entonces será para hacer la interfaz con IntelliJ
 
+Se puede descargar varias versiones del SceneBuilder. En IntelliJ, cuando creamos un FXML, en la parte inferior, se encuentra nuestro scenebuilder, no es muy confiable usar el embebido por que consume mucha ram, por lo que se prefiere usar los programas por separado.
+
+También cuando se crea un JAVAFX se crea una nueva clase de JAVA para usar en la aplicación.
+
+SceneBuilder me ayudara más a modificar el archivo por medio de arrastrar los bloques, input, etc, es más rapido.
 
 - [] 24 de Noviembre de 2017 :goberserk:
 
