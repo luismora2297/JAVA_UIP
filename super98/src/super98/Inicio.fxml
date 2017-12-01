@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" prefHeight="177.0" prefWidth="400.0" vgap="10" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="super98.Inicio">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="300.0" prefWidth="400.0" style="-fx-background-color: #2C5F00;">
+         <children>
+            <Pane prefHeight="50.0" prefWidth="400.0" style="-fx-background-color: #FFFFFF;">
+               <children>
+                  <Label layoutX="14.0" layoutY="11.0" text="Super 98">
+                     <font>
+                        <Font name="Arch" size="17.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="btn_salir" fitHeight="39.0" fitWidth="29.0" layoutX="360.0" layoutY="11.0" onMouseClicked="#salir" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@if_xfce-system-exit_23651.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Label layoutX="18.0" layoutY="66.0" text="Puntos de Plata" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="cuenta" layoutX="54.0" layoutY="106.0" text="#####" textFill="WHITE" />
+            <Label fx:id="puntos" layoutX="132.0" layoutY="106.0" text="#####" textFill="WHITE" />
+            <Button fx:id="btn_comprar" layoutX="217.0" layoutY="99.0" mnemonicParsing="false" onAction="#comprar" text="Comprar" />
+            <Button fx:id="btn_consultar" layoutX="308.0" layoutY="99.0" mnemonicParsing="false" onAction="#consultar" text="Consultar" />
+            <TextField fx:id="cosafea" layoutX="75.0" layoutY="131.0" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
